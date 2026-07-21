@@ -4,6 +4,10 @@ Project : Enterprise Retail Demand Forecasting Platform
 Database: M5DataWarehouse
 Purpose : Create the database and Medallion Architecture
           schemas (Bronze, Silver, Gold).
+WARNING:
+    Running this script will drop the entire 'M5DataWarehouse' database if it exists. 
+    All data in the database will be permanently deleted. Proceed with caution 
+    and ensure you have proper backups before running this script.
 =====================================================
 */
 
